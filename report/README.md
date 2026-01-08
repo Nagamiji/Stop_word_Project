@@ -21,7 +21,7 @@ The project is divided into four distinct phases, each corresponding to a specif
 - **Output:** Two datasets:
   - `dataset_with_stopwords.txt` (Full text)
   - `dataset_remove_stopwords.txt` (Cleaned text)
-- **Notebook:** `notebooks/01_preprocessing.ipynb`
+- **Notebook:** `notebooks/01_preprocessing.ipynb, Text_Apply_StopWord.ipynb, and Text_preprocessing.ipynb`
 
 ### Phase 2: TF-IDF Analysis (Person 2)
 **Objective:** Analyze how stop-word removal affects term weighting.
