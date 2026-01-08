@@ -65,7 +65,7 @@ pip install khmer-nltk scikit-learn pandas matplotlib seaborn
 ```
 
 ### Step 1: Run Preprocessing
-1. Open `notebooks/01_preprocessing.ipynb`.
+1. Open `notebooks/Text_preprocessing.ipynb and Text_Apply_StopWord.ipynb`.
 2. Ensure the `FIle_Stopwords.csv` is present in `stopwords/` directory.
 3. Run all cells to generate `dataset_with_stopwords.txt` and `dataset_remove_stopwords.txt` in the `data/` folder.
 
