@@ -1,0 +1,26 @@
+INDIVIDUAL VS COLLECTIVE STOPWORD REMOVAL - EXECUTIVE SUMMARY
+================================================================================
+
+KEY DECISION GUIDE:
+----------------------------------------
+USE COLLECTIVE REMOVAL WHEN:
+• Maximum retrieval performance is critical
+• You have sufficient processing resources
+• Application domain is general/unknown
+• Synergy benefit (-0.09) is worth it
+
+USE INDIVIDUAL REMOVAL WHEN:
+• Processing resources are limited
+• Specific linguistic features need preservation
+• Incremental improvement is sufficient
+• Domain-specific optimization is needed
+
+TOP 3 GROUPS TO REMOVE (Individual Strategy):
+----------------------------------------
+1. Questions (Improvement: 0.09)
+2. Determiners (Improvement: 0.05)
+3. Prepositions (Improvement: 0.04)
+
+COLLECTIVE IMPROVEMENT: -178.92
+SYNERGY EFFECT: -0.09
+MOST EFFICIENT GROUP: Questions
