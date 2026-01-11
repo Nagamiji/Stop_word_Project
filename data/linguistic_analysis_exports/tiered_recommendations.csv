@@ -1,0 +1,11 @@
+﻿Category,Tier,Frequency_%,IR_Improvement_%,Recall@10,Rationale,Recommendation,Tier_Color
+Prepositions / Relational Words,1,6.8,0.034441191665237,0.99,High frequency and/or significant IR improvement,Always remove Prepositions / Relational Words. These words contribute significant noise with minimal semantic value.,red
+Conjunctions,1,6.2,-0.1722059583261605,0.98,High frequency and/or significant IR improvement,Always remove Conjunctions. These words contribute significant noise with minimal semantic value.,red
+Auxiliary Verbs / Aspect Markers,2,3.9,-0.00861029791631231,0.99,Moderate frequency and/or moderate IR improvement,Remove Auxiliary Verbs / Aspect Markers for most applications. Provides good noise reduction with minimal information loss.,orange
+Function Nouns,2,2.8,-0.00861029791631231,0.99,Moderate frequency and/or moderate IR improvement,Remove Function Nouns for most applications. Provides good noise reduction with minimal information loss.,orange
+Determiners & Quantifiers,2,2.6,0.043051489581537074,0.99,Moderate frequency and/or moderate IR improvement,Remove Determiners & Quantifiers for most applications. Provides good noise reduction with minimal information loss.,orange
+Particles & Discourse Markers,2,2.5,0.034441191665237,0.99,Moderate frequency and/or moderate IR improvement,Remove Particles & Discourse Markers for most applications. Provides good noise reduction with minimal information loss.,orange
+Pronouns,3,1.5,-153.89185465817118,0.97,"Low frequency, removal may be context-dependent",Consider removing Pronouns based on specific application. May contain useful information for some tasks.,yellow
+Numbers & Time Expressions,3,1.1,-0.10332357499569877,0.98,"Low frequency, removal may be context-dependent",Consider removing Numbers & Time Expressions based on specific application. May contain useful information for some tasks.,yellow
+Question & Negation Words,4,0.9,0.07749268124677408,0.99,"Low frequency, minimal impact on IR",Keep Question & Negation Words unless specifically targeting noise reduction. Contains potentially useful information.,green
+Politeness & Honorifics,4,0.7,0.01722059583261238,0.99,"Low frequency, minimal impact on IR",Keep Politeness & Honorifics unless specifically targeting noise reduction. Contains potentially useful information.,green

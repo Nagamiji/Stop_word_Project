@@ -1,0 +1,23 @@
+EXECUTIVE SUMMARY: KHMER STOPWORD ANALYSIS
+============================================================
+
+KEY FINDINGS:
+----------------------------------------
+1. Stopwords account for 29.1% of all text
+2. 2 categories are CRITICAL to remove (Tier 1)
+3. Removing Tier 1+2 categories eliminates ~24.8% of text
+4. This improves IR performance by 0.1% (if correlation data available)
+
+TOP RECOMMENDATIONS:
+----------------------------------------
+1. ALWAYS remove: Prepositions / Relational Words, Conjunctions
+2. USUALLY remove: Auxiliary Verbs / Aspect Markers, Function Nouns, Determiners & Quantifiers, Particles & Discourse Markers
+3. CASE-BY-CASE: Pronouns, Numbers & Time Expressions
+4. RARELY remove: Question & Negation Words, Politeness & Honorifics
+
+PRACTICAL ADVICE:
+----------------------------------------
+• Start with 'information_retrieval' stopword list for most tasks
+• Use 'minimal' list for linguistic analysis
+• Use 'aggressive' list for maximum noise reduction
+• Customize based on your specific application
