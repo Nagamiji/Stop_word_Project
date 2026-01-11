@@ -1,0 +1,28 @@
+# Khmer Corpus Diagnostic Report
+
+## Executive Summary
+
+- **Total files analyzed**: 12
+- **Files with good quality (>80% Khmer)**: 12
+- **Files with issues (50-80% Khmer)**: 0
+- **Files with critical issues (<50% Khmer)**: 0
+
+## Detailed Results
+
+| Corpus             |   Documents |   Total_Tokens |   Khmer_Tokens |   Khmer_% |   Latin_Tokens |   Latin_% | Status   |
+|:-------------------|------------:|---------------:|---------------:|----------:|---------------:|----------:|:---------|
+| Original           |       58409 |          30036 |          30036 |       100 |              0 |         0 | ✓ GOOD   |
+| No_All_Stopwords   |       58409 |          21334 |          21334 |       100 |              0 |         0 | ✓ GOOD   |
+| No_Auxiliary_Verbs |       58409 |          28880 |          28880 |       100 |              0 |         0 | ✓ GOOD   |
+| No_Conjunctions    |       58409 |          28241 |          28241 |       100 |              0 |         0 | ✓ GOOD   |
+| No_Determiners     |       58409 |          29265 |          29265 |       100 |              0 |         0 | ✓ GOOD   |
+| No_Function_Nouns  |       58409 |          29154 |          29154 |       100 |              0 |         0 | ✓ GOOD   |
+| No_Numbers         |       58409 |          29740 |          29740 |       100 |              0 |         0 | ✓ GOOD   |
+| No_Particles       |       58409 |          29244 |          29244 |       100 |              0 |         0 | ✓ GOOD   |
+| No_Politeness      |       58409 |          29833 |          29833 |       100 |              0 |         0 | ✓ GOOD   |
+| No_Prepositions    |       58409 |          27995 |          27995 |       100 |              0 |         0 | ✓ GOOD   |
+| No_Pronouns        |       58409 |          29580 |          29580 |       100 |              0 |         0 | ✓ GOOD   |
+| No_Questions       |       58409 |          29726 |          29726 |       100 |              0 |         0 | ✓ GOOD   |
+
+## Issues and Recommendations
+
